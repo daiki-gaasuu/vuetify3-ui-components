@@ -6,11 +6,13 @@
     "serve": "vite preview",
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
     "@mdi/js": "^7.0.96",
+    "gh-pages": "^4.0.0",
     "roboto-fontface": "*",
     "vue": "^3.2.41",
     "vue-router": "4",
