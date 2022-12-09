@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const componentList = ["Icon"];
+const componentList = ['Icon', 'Forms']
 </script>
 <template>
   <div>
@@ -9,8 +9,8 @@ const componentList = ["Icon"];
         v-for="item in componentList"
         :key="item"
         :title="item"
-        :to="{name: item}"
-      ></v-list-item>
+        :to="{name: item}">
+      </v-list-item>
     </v-list>
   </div>
 </template>

@@ -11,6 +11,11 @@ const routes = [
     name: "Icon",
     component: () => import("../views/Icon.vue"),
   },
+  {
+    path: "/forms",
+    name: "Forms",
+    component: () => import("../views/Forms.vue"),
+  },
 ];
 
 const router = createRouter({
