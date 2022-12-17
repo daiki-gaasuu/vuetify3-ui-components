@@ -12,7 +12,12 @@
   "dependencies": {
     "@mdi/font": "5.9.55",
     "@mdi/js": "^7.0.96",
+    "@types/google-libphonenumber": "^7.4.23",
+    "@vee-validate/i18n": "^4.7.3",
+    "@vee-validate/rules": "^4.7.3",
+    "google-libphonenumber": "^3.2.31",
     "roboto-fontface": "*",
+    "vee-validate": "^4.7.3",
     "vue": "^3.2.41",
     "vue-router": "4",
     "vuetify": "npm:@vuetify/nightly@next",

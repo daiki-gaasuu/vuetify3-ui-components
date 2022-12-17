@@ -2,7 +2,7 @@
 defineProps<{ title: string }>();
 </script>
 <template>
-  <v-card elevation="5" class="wrapper">
+  <v-card elevation="5" class="wrapper mt-5">
     <v-card-title class="py-0">
       {{ title }}
     </v-card-title>
