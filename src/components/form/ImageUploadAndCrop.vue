@@ -2,7 +2,6 @@
 import { computed, ref } from 'vue';
 import { Cropper } from 'vue-advanced-cropper';
 import 'vue-advanced-cropper/dist/style.css';
-import imageCompression from 'browser-image-compression';
 const uploadImageData = ref<File[]>();
 const previewImageData = ref<string>('');
 
@@ -106,11 +105,6 @@ const imageSrc = computed(() => {
 </template>
 
 <style scoped>
-.section-bar {
-  font-size: 30px;
-  margin: 0 5px;
-}
-
 .upload-image-view {
   background: none;
   width: 300px;
