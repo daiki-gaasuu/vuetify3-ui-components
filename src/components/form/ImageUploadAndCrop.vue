@@ -86,7 +86,7 @@ const imageSrc = computed(() => {
                   class="cropper"
                   :src="imageSrc"
                   :stencil-props="{
-                    aspectRatio: 12 / 12,
+                    aspectRatio: 1 / 1,
                   }"
                   @change="change"
                 ></Cropper>
