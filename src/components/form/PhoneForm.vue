@@ -3,7 +3,6 @@ import { PhoneNumberUtil, PhoneNumberFormat } from 'google-libphonenumber';
 import { Field, Form } from 'vee-validate';
 import { ref } from 'vue';
 import { VALIDATION_RULE as VR } from '@/plugins/validation';
-import type { PhoneNumber, PhoneNumberType } from 'google-libphonenumber';
 
 type PhoneNumberForm = {
   number1?: string;
@@ -81,7 +80,7 @@ const onSubmit = () => {
           />
         </Field>
       </v-responsive>
-      <v-btn type="submit" class="ml-2">validate</v-btn>
+      <v-btn type="submit" color="blue" class="ml-2">validate</v-btn>
       <div class="ml-2">
         <p>isValid: {{ result.isValid }}</p>
         <p>formatResult: {{ result.formatResult }}</p>
